@@ -1,4 +1,4 @@
-const ini = {
+export const ini = {
     "results":[]
 };
 

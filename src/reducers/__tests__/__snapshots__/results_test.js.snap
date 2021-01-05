@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`results reducer should (update results) handle UPRES 1`] = `
+Object {
+  "results": Object {
+    "Test": "Test Value",
+  },
+}
+`;
+
+exports[`results reducer should return the initial state 1`] = `
+Object {
+  "results": Array [],
+}
+`;

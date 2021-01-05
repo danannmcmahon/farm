@@ -36,7 +36,6 @@ export const searchAgeSh = (v) => {
 }
 
 export const fetchResultsSuccess = (v) => {
-    console.log(v)
     return {
         type: 'UPRES',
         payload: v

@@ -10,7 +10,7 @@ import { searchCategory, searchAge, searchAgeCh, searchAgeCw, searchAgeSh, fetch
 import { connect } from 'react-redux';
 import {bindActionCreators} from 'redux';
 
-function SearchBar(props) {
+export function SearchBar(props) {
   
   const bar = props.search;
   const dispatch = useDispatch();
@@ -81,7 +81,7 @@ function SearchBar(props) {
 return (
     
 <FormControl className="searchbarFC">
-<div className="flex-container">
+<div className="flex-container" data-test="search-container">
     <div className="flex-item1">
         <Select
           labelId="demo-simple-select-label"

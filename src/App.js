@@ -1,6 +1,7 @@
 import './App.css';
 import { Switch, Route } from 'react-router-dom';
 import Navbar from './components/navbar';
+import Header from './components/header';
 import Overview from './views/overview';
 import Update from './views/update';
 import Add from './views/add';
@@ -12,9 +13,7 @@ function App() {
   return (
     <div className="App">
       
-        <header className="App-header">
-          <h1>Farm Livestock</h1>
-        </header>
+        <Header/>
         <Navbar/>
       <Switch>
         <Route path='/' exact component={Overview}/>

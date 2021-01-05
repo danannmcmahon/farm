@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fetch results Success creates UPRES when dispatched by fetch results 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "age": 6,
+      "category": "sheep",
+      "life-expectancy": "12",
+      "name": "John",
+      "output": Array [
+        Object {
+          "frequency": "yearly",
+          "product": "wool",
+          "quantity": 5.3,
+        },
+        Object {
+          "frequency": "once",
+          "product": "meat",
+          "quantity": 23.72,
+        },
+      ],
+    },
+    "type": "UPRES",
+  },
+]
+`;

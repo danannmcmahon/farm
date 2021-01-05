@@ -10,8 +10,6 @@ import thunk from 'redux-thunk';
 import { BrowserRouter } from 'react-router-dom';
 
 export const store = createStore(allReducers, applyMiddleware(thunk));
-//store.subscribe(() => {console.log('On Index'+store.getState().results.results)})
-
 
 ReactDOM.render(
   <React.StrictMode>
