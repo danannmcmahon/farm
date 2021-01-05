@@ -1,6 +1,6 @@
 # React project, Redux, Express, MongoDB, Material-UI, Jest
 
-Project theme: Farm Inventory with 3 animal types.  The farmer/user has an overview of his livestock and can update to their name and output.  They can introduce new animals to the farm and they can pair two animals of the same type to create a new animal.
+Project theme: Farm Inventory with 3 animal types.  The farmer/user has an overview of his livestock and can update their name and output.  They can introduce new animals to the farm and they can pair two animals of the same type to create a new animal.
 
 # Redux
 
