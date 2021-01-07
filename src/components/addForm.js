@@ -14,7 +14,7 @@ export default function AddForm() {
     const [age, setAge] = React.useState(0);
     const [quantity, setQuantity] = React.useState(0);
     const [name, setName] = React.useState("");
-    const [output, setOutput] = React.useState('kg of egg weekly');
+    const [output, setOutput] = React.useState('Kg of egg weekly');
     const [minmaxAge, setmAge] = React.useState([0,5]);
     const [minmaxOutput, setmOutput] = React.useState([0.12, 0.455]);
 

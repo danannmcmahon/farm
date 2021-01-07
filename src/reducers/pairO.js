@@ -2,7 +2,8 @@ const ini = {
     "category":"",
     "name":["","",""],
     "output":[0,0,0],
-    "id":["",""]
+    "id":["",""],
+    "mod":false
 };
 
 const pairReducer = (state = ini, action) => {
@@ -45,6 +46,12 @@ const pairReducer = (state = ini, action) => {
                 ...state,
                 name:[state.name[0],state.name[1],state.name[0]+" Jr."],
                 output:[state.output[0],state.output[1],((state.output[0]+state.output[1])/2).toFixed(2)],
+            }
+            return state;
+        case 'MODTOG':
+            state = {
+                ...state,
+                mod:!state.mod
             }
             return state;
         case 'PAIRRESET':

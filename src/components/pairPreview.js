@@ -61,6 +61,6 @@ function mapDispatchToProps(dispatch){
         pairReset:pairReset
       }, dispatch)
   
-  }
+}
 
 export default connect(mapStateToProps, mapDispatchToProps)(PairPreview);

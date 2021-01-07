@@ -166,3 +166,9 @@ export const pairCreate = v => {
         payload: v
     }
 }
+
+export const modTog = () => {
+    return {
+        type: 'MODTOG'
+    }
+}
